@@ -20,4 +20,7 @@ jobs:
  
     - name: Install dependencies
       run: npm install
+
+    - name: nmp Build
+      run: npm run build
       working-directory: ./
